@@ -1,0 +1,77 @@
+Ada Lovelace
+English mathematician, 'first computer programmer', published an algorithm for
+a theoretical computer designed by Charles Babbage.
+
+Grace Hopper
+USN admiral, proposed the development of a programming language that would use
+English words, created first 'link-loader', translating English code into
+machine code, developing FLOW-MATIC, which led to COBOL. Credited with
+popularizing 'debugging' after her team found a literal bug inside a computer.
+
+Adele Goldstine
+US mathematician. Wrote manual for first programmable electronic digital computer ENIAC and a
+pioneer in the idea of stored instructions as opposed to reprogramming a
+computer for each task.
+
+Alan Turing
+English mathematician. Father of theoretical computer science and AI. WWII
+codebreaker. Developed Turing machine, capable of running any computer
+algorithm, the model of a general-purpose computer.
+
+Charles Babbage
+English mathematician. Originated the concept of a digital programmable computer
+. Inventor of first mechanical computer, developer of Analytical Engine, which
+contains the ideas cemented in modern computers.
+
+Abdullah Muhammad bin Musa al-Khwarizmi
+Perian, 8-9th C. 'Father' of algebra and the algorithm; binary mathematics used
+in computing is based on his algorithmic modules.
+
+John Atanasoff
+US physicist, invetor of first electronic digital computer
+
+Lois Haibt
+American computer scientist and a developer of FORTRAN, the first successful
+high-level computer language.
+
+Claude Shannon
+American mathematician, father of information theory. Designed switching
+circuits, the foundation of electronic digital computing and circuit design.
+
+Steve Jobs
+Founder of Apple and inventor of apple computer, pioneer in personal computing
+and using a closed architecture, more marketing than design.
+
+Bill Gates
+Created first OS for IBM PC, DOS and later Windows based on DOS.
+
+Tim Berners-Lee
+English computer scientist, inventor of WWW.  Invented hypertext and matched
+it with TCP and DNS to create the web. Published the first website, designed and
+ built first web browser and first web server.
+
+Steve Wozniak
+Computer engineer, cofounder of Apple and pioneer in personal computing. The
+inventor Apple I and II and helped design Macintosh.
+
+Konrad Zuse
+German computer scientist. 'inventor of modern computer' developed first
+programmable computer (Z3).
+
+Sir Antony Hoare
+British computer scientist. Major contributions to programming. Invented
+quicksort.
+
+Marvin Minsky
+US computer scientist. Major AI researcher.
+
+Yukihiro Matsumoto
+Japanese computer scientist. Chief designer of Ruby language and original
+implementation (MRI).
+
+Hayyim Slonimski
+Hebrew mathematician. Invented a calculating machine in 1844.
+
+Gertrude Blanch
+US mathematician. Pioneer in algorithm design for human and mechanical computers
+.

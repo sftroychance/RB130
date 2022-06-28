@@ -1,46 +1,16 @@
 =begin
-A great way to learn about blocks is to implement some of the core ruby methods that use blocks using your own code. Over this exercise and the next several exercises, we will do this for a variety of different standard methods.
 
-The Enumerable#any? method processes elements in a collection by passing each element value to a block that is provided in the method call. If the block returns a truthy value for any element, then #any? returns true. Otherwise, #any? returns false. Note in particular that #any? will stop searching the collection the first time the block returns true.
-
-Write a method called any? that behaves similarly for Arrays. It should take an Array as an argument, and a block. It should return true if the block returns true for any of the element values. Otherwise, it should return false.
-
-Your method should stop processing elements of the Array as soon as the block returns true.
-
-If the Array is empty, any? should return false, regardless of how the block is defined.
-
-Your method may not use any standard ruby method that is named all?, any?, none?, or one?.
-
-Examples:
-any?([1, 3, 5, 6]) { |value| value.even? } == true
-any?([1, 3, 5, 7]) { |value| value.even? } == false
-any?([2, 4, 6, 8]) { |value| value.odd? } == false
-any?([1, 3, 5, 7]) { |value| value % 5 == 0 } == true
-any?([1, 3, 5, 7]) { |value| true } == true
-any?([1, 3, 5, 7]) { |value| false } == false
-any?([]) { |value| true } == false
 =end
 
-def any?(collection)
-  collection.each { |element| return true if yield(element) }
-  false
+def none?(collection)
+  collection.each { |element| return false if yield(element) }
+  true
 end
 
-require 'set'
-
-p any?([1, 3, 5, 6]) { |value| value.even? } == true
-p any?([1, 3, 5, 7]) { |value| value.even? } == false
-p any?([2, 4, 6, 8]) { |value| value.odd? } == false
-p any?([1, 3, 5, 7]) { |value| value % 5 == 0 } == true
-p any?([1, 3, 5, 7]) { |value| true } == true
-p any?([1, 3, 5, 7]) { |value| false } == false
-p any?([]) { |value| true } == false
-
-p any?({ a: false, b: false }) { |k, v| v == true } == false
-p any?({ a: false, b: true }) { |k, v| v == true }
-
-x = [false, false, false].to_set
-
-p any?(x) { |v| v == true } == false
-p any?(x) { |v| true } == true
-p any?(x) { |v| v == false } == true
+p none?([1, 3, 5, 6]) { |value| value.even? } == false
+p none?([1, 3, 5, 7]) { |value| value.even? } == true
+p none?([2, 4, 6, 8]) { |value| value.odd? } == true
+p none?([1, 3, 5, 7]) { |value| value % 5 == 0 } == false
+p none?([1, 3, 5, 7]) { |value| true } == false
+p none?([1, 3, 5, 7]) { |value| false } == true
+p none?([]) { |value| true } == true
