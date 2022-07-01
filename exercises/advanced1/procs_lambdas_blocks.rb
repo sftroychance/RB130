@@ -102,4 +102,4 @@ with special restrictions (strict arity, different return behavior).
 2. Blocks and Procs have lenient arity; methods and lambdas have strict arity.
 3. If parameters are defined for blocks or Procs but the method call does not
  send the correct number of arguments, the value of nil will be assigned to
-block variables without arguments, and any extra arguments will be ignored. 
+block variables without arguments, and any extra arguments will be ignored.
